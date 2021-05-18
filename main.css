@@ -1,4 +1,11 @@
 
+.wrapper{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin: 5px
+}
+
+
 #background1 {
      background-image: linear-gradient(to bottom right,gray, lightblue);
      height: 200px;
@@ -17,4 +24,16 @@
     font-weight: bold;
     display: inline-block;
     
+}
+
+ul{
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+
+}
+
+.header4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
