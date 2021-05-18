@@ -26,14 +26,39 @@
     
 }
 
-ul{
+dl{
     font-family: Verdana, sans-serif;
     font-size: 12px;
     display: inline-block;
-
+    
 }
 
-.header4 {
+  .fixedform {
+        
+        background-color: honeydew;
+		margin: 0 auto;
+		width: 300px;
+        top: 0;
+        right: 0;
+        position: fixed;
+	}
+	.fixedform label{
+		display: inline-block;
+		text-align: left;
+		
+	}
+	.fixedform input{  
+		display: inline-block;
+		text-align: left;
+		
+	}
+
+.linkbar{
+    background-color: lightcyan;
+    width: 50%;
+    height: 100px;
+    border-style: double;
+    border-width: 3px;
+    border-color: lightslategrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
 }
